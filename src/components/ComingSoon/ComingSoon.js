@@ -16,7 +16,7 @@ function ComingSoon() {
             <div className="contact-text">
               Get in touch
               <br />
-              balaji.aravamuthan@datacharya.ai
+              <a href="mailto:balaji.aravamuthan@datacharya.ai" className="text-decoration-none">balaji.aravamuthan@datacharya.ai</a>
             </div>
           </div>
         </div>
