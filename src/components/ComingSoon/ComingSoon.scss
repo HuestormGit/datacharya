@@ -11,48 +11,45 @@
         background-position: top center;
         background-size: cover;
    }
-}
 
-.main-heading {
-    font-size: 40px;
-    line-height: 40px;
-    margin: 20px 0;
-    font-weight: 300;
 
-    @include lg{
-        font-size: 72px;
-        line-height: 72px;
-        margin: 50px 0;
+   .main-heading {
+        font-size: 40px;
+        line-height: 40px;
+        margin: 20px 0;
+        font-weight: 300;
+
+        @include lg{
+            font-size: 72px;
+            line-height: 72px;
+            margin: 50px 0;
+        }
     }
-}
 
-.coming-text {
-    font-size: 26px;
-    font-weight: 300;
-    @include md{
-        font-size: 30px;
-        margin-top: 15px;
+    .coming-text {
+        font-size: 26px;
+        font-weight: 300;
+        @include md{
+            font-size: 30px;
+            margin-top: 15px;
+        }
+        @include lg{
+            font-size: 36px;
+            margin-top: 20px;
+            line-height:36px;
+        }    
     }
-    @include lg{
-        font-size: 36px;
-        margin-top: 20px;
+
+    .contact-text {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+
     }
-    
-}
-
-.contact-text {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    // @include md{
-    //     font-size: 18px;
-    //     line-height: 24px;
-    // }
-    // @include lg{
-    //     font-size: 18px;
-    //     line-height: 24px;
-    // }
 
 }
+
+
+
 
 
