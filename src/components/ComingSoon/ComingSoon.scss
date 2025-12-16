@@ -2,8 +2,6 @@
 .coming-wrapper {
     height: 100vh;
     background: url("../../assets/images/Mobile-Background.jpg") no-repeat;
-    // background: url("../../assets/images/Background.jpg") center / cover no-repeat;
-    // display: flex;
     align-items: center;
     color: #ffffff;
     background-size: cover;
@@ -16,19 +14,16 @@
 }
 
 .main-heading {
-    font-size: 72px;
-    line-height: 72px;
-    margin-top: 20px;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 20px 0;
     font-weight: 300;
-    // @include md{
-    //     font-size: 40px;
-    //     line-height: 40px;
-    // }
-    // @include lg{
-    //     font-size: 72px;
-    //     line-height: 72px;
-    //     margin-top: 50px;
-    // }
+
+    @include lg{
+        font-size: 72px;
+        line-height: 72px;
+        margin: 50px 0;
+    }
 }
 
 .coming-text {
