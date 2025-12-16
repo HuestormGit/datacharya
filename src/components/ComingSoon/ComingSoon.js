@@ -3,7 +3,7 @@ import "./ComingSoon.scss";
 
 function ComingSoon() {
   return (
-    <div className="coming-wrapper">
+    <div className="coming-wrapper tk-proxima-nova">
       <div className='container'>
         <div className="row vh-100 justify-content-center align-items-center">
           <div className="col-12 text-center">
