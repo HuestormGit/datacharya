@@ -8,7 +8,7 @@ function ComingSoon() {
         <div className="row vh-100 justify-content-center align-items-center">
           <div className="col-12 text-center">
             <h1 className="main-heading">
-              Indian wisdom applied to
+              Indian wisdom applied to<br></br>
               Global business problems
             </h1>
             <p className='coming-text'>COMING SOON...</p>
