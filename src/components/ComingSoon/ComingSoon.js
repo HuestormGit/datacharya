@@ -12,7 +12,7 @@ function ComingSoon() {
               <br />
               Global business problems
             </h1>
-            <p className='coming-text'>coming soon...</p>
+            <p className='coming-text'>Coming soon...</p>
             <div className="contact-text">
               Get in touch
               <br />
