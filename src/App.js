@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
-import ComingSoon from "./components/ComingSoon/ComingSoon";
+// import ComingSoon from "./components/ComingSoon/ComingSoon";
+import ComingSoon from "./components/comming/ComingSoon";
 import './App.css';
 
 function App() {

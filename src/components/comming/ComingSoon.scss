@@ -1,0 +1,20 @@
+@import "../../css-config/mixins.scss";
+.coming-wrapper {
+    height: 100vh;
+    background: url("../../assets/images/Ref-Mobiledesign.jpg") no-repeat;
+    align-items: center;
+    color: #ffffff;
+    background-size: cover;
+    @include md{
+        background: url("../../assets/images/Ref-Desktopdesign.jpg") no-repeat;
+        background-position: top center;
+        background-size: cover;
+   }
+
+
+}
+
+
+
+
+
