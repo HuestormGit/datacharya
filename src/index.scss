@@ -11,18 +11,18 @@ body {
 //   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 //     monospace;
 // }
-// @font-face {
-//   font-family: "Proxima Nova";
-//   src: url("./assets/fonts/proximanova-light.otf") format("opentype");
-//   font-weight: 300;
-//   font-style: normal;
-//   font-display: swap;
-// }
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./assets/fonts/proximanova-light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
 
-// @font-face {
-//   font-family: "Proxima Nova";
-//   src: url("./assets/fonts/proximanovacond-medium.otf") format("opentype");
-//   font-weight: 500;
-//   font-style: normal;
-//   font-display: swap;
-// }
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./assets/fonts/proximanovacond-medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
