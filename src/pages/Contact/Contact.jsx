@@ -1,32 +1,32 @@
-// import React, { useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 // import emailjs from "@emailjs/browser";
 import "./Contact.scss";
 function Contact() {
-  // const form = useRef();
-  // const [loading, setLoading] = useState(false);
-  // const [success, setSuccess] = useState("");
+  const form = useRef();
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState("");
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-  //   setLoading(true);
+  const sendEmail = (e) => {
+    e.preventDefault();
+    setLoading(true);
 
-  //   emailjs
-  //     .sendForm(
-  //       "YOUR_SERVICE_ID",
-  //       "YOUR_TEMPLATE_ID",
-  //       form.current,
-  //       "YOUR_PUBLIC_KEY"
-  //     )
-  //     .then(() => {
-  //       setLoading(false);
-  //       setSuccess("Message sent successfully!");
-  //       form.current.reset();
-  //     })
-  //     .catch(() => {
-  //       setLoading(false);
-  //       setSuccess("Failed to send message");
-  //     });
-  // };
+    emailjs
+      .sendForm(
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
+        form.current,
+        "YOUR_PUBLIC_KEY"
+      )
+      .then(() => {
+        setLoading(false);
+        setSuccess("Message sent successfully!");
+        form.current.reset();
+      })
+      .catch(() => {
+        setLoading(false);
+        setSuccess("Failed to send message");
+      });
+  };
 
   return (
     <section id="contact_page">
@@ -80,11 +80,10 @@ function Contact() {
               </div>
 
               <button type="submit" className="elementor-btn">
-                "Submit"
-                {/* {loading ? "Sending..." : "Submit"} */}
+                {loading ? "Sending..." : "Submit"}
               </button>
 
-              {/* {success && <p className="success-msg">{success}</p>} */}
+              {success && <p className="success-msg">{success}</p>}
             </form>
 
           </div>
