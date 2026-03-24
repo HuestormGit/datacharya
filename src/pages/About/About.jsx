@@ -53,42 +53,42 @@ function About() {
             <div className="info_box2">
               
 
-              <div className="card">
+              <div className="workcard">
                 <img src={About_icon} alt="{" />
                 <p className="Data-300-22-30">The Visionary Leader</p>
                 <h4 className="Data-300-54-54">CXO, Boards</h4>
 
               </div>
 
-              <div className="card">
+              <div className="workcard">
                 <img src={About_icon} alt="{" className="rotateimg"/>
                 <p className="Data-300-22-30">The Compliance Guardian</p>
                 <h4 className="Data-300-54-54">Audit, Risk, Quality</h4>
 
               </div>
 
-              <div className="card">
+              <div className="workcard">
                 <img src={About_icon} alt="{" />
                 <p className="Data-300-22-30">The Builder of Systems</p>
                 <h4 className="Data-300-54-54">CIOs, Architects</h4>
 
               </div>
 
-              <div className="card">
+              <div className="workcard">
                 <img src={About_icon} alt="{" className="rotateimg"/>
                 <p className="Data-300-22-30">The Talent Orchestrator</p>
                 <h4 className="Data-300-54-54">CHROs, OD Heads</h4>
 
               </div>
 
-              <div className="card">
+              <div className="workcard">
                 <img src={About_icon} alt="{" />
                 <p className="Data-300-22-30">The Growth Engineer</p>
                 <h4 className="Data-300-54-54">Founders, BU Heads</h4>
 
               </div>
 
-              <div className="card">
+              <div className="workcard">
                 <img src={About_icon} alt="{" className="rotateimg"/>
                 <p className="Data-300-22-30">The Sector Specialist</p>
                 <h4 className="Data-300-54-54">Pharma, Fintech, Infra, Agro, NBFCs</h4>

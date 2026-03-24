@@ -4,7 +4,7 @@
     background: url("../../assets/images/MobiledesignBackground.jpg") no-repeat;
     align-items: center;
     color: #ffffff;
-    background-size: cover;
+    background-size: 100% 100%;
     font-family: "proxima-nova", sans-serif;
     @include md{
         background: url("../../assets/images/DesktopdesigncopyBackground.jpg") no-repeat;
