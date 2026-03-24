@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import chetak from "../../assets/CHETAK.png";
 import chaturvima from "../../assets/CHATURVIMA.png";
 import dataraksha from "../../assets/DATARAKSHA.png";

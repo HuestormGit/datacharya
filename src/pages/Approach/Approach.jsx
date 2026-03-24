@@ -1,9 +1,10 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import SENSE from "../../assets/sense.png";
 import ALIGN from "../../assets/align.png";
 import GOVERN from "../../assets/govern.png";
 import ELEVATE from "../../assets/elevate.png";
 import FrameworkofGrowthInfographic from "../../assets/FrameworkofGrowthInfographic.png";
+import ApproachSlider from "../../sections/ApproachSlider/ApproachSlider"
 import "./Approach.scss";
 function Approach() {
   return (
@@ -66,6 +67,7 @@ function Approach() {
 
       <div className="my-fluid-container Datalifecycle">
         <h3 className="Data-200-64-80">Our capabilities in the Data Lifecycle</h3>
+        <ApproachSlider/>
         
       </div>
 

@@ -105,20 +105,27 @@
         align-items: center;
 
         h3{
-            padding: 132px 0px 87px;
+            padding: 30px 0px 20px;
+            @include md{
+                padding: 132px 0px 87px;
+            }
         }
         img{
-            width: 1680px;
-            height: 951px;
+            width: 300px;
+            height: auto;
             @include md{
-                width: 1680px;
-                height: 951px;
+                width: 680px;
+                height: auto;
             }
             @include lg{
-                width: 1680px;
-                height: 951px;
+                width: 1000px;
+                height: auto;
             }
             @include xl{
+                width: 1200px;
+                height: auto;
+            }
+            @include xxl{
                 width: 1680px;
                 height: 951px;
             }
@@ -133,9 +140,23 @@
         align-items: center;
 
         h3{
-            width: 744px;
+            width: 100%;
             text-align: center;
             padding: 71px 0px;
+            color: black;
+            @include md{
+                width: 680px;
+                
+            }
+            @include lg{
+                width: 744px;
+            }
+            @include xl{
+                width: 744px;
+            }
+            @include xxl{
+               width: 744px;
+            }
         }
     }
 

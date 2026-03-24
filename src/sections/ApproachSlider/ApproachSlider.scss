@@ -1,0 +1,92 @@
+@use "../../css-config/mixins.scss" as *;
+.ApproachSlider {
+  padding: 40px;
+  width: 100%;
+
+  .swiper-wrapper{
+    gap: 30px;
+    transform: none;
+
+  .swiper-slide{
+    // width: 34%!important;
+    margin-right: 0px!important;
+  .card {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    background: radial-gradient(131.83% 134.42% at -28.94% 141.98%, #DFEFFC 11.76%, #9FDAFC 35.72%, #47BCFD 51.03%, #3F8AD6 66.76%, #32419D 89.78%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: var(--sds-size-depth-0) var(--sds-size-depth-400) var(--sds-size-depth-800) var(--sds-size-depth-100) #0C0C0D33;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    @include md{}
+    @include lg{}
+    @include xl{
+        // width: 743px;
+        height: 710px;
+        padding: 40px;
+        flex-direction: row;  
+    }
+    @include xxl{
+        // width: 743px;
+        height: 710px;
+        padding: 40px;
+        flex-direction: row;   
+    }
+
+    .left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px;
+        
+        @include md{}
+        @include lg{}
+        @include xl{
+            width: 50%;
+            height: auto;
+        }
+        @include xxl{
+            width: 50%;
+            height: auto;
+        }
+    }
+    .right{
+       width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px;
+        @include md{}
+        @include lg{}
+        @include xl{
+            width: 50%;
+            height: auto;
+        }
+        @include xxl{
+            width: 50%;
+            height: auto;
+        }
+        img{
+            width: 100%;
+            height: auto;
+            @include md{
+                width: 50%;
+            }
+        }
+        button{
+            width: 150px;
+        }
+
+    }
+
+    }
+
+    }
+    
+
+}
+
+    
+  }
