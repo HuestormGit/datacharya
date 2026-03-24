@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import SENSE from "../../assets/sense.png";
 import ALIGN from "../../assets/align.png";
 import GOVERN from "../../assets/govern.png";
